@@ -6,7 +6,7 @@ inf_word = []
 if choise == 1:
     inf_word = list(map(int, input().split()))
 else:
-    inf_word = [1, 0, 0, 1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 1]
+    inf_word = [1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0]
 
 print("Исходное слово: " + str(inf_word) + "\n\n")
 
